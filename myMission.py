@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from dronekit import connect, VehicleMode, LocationGlobalRelative, Command 
 import time, sys
 from pymavlink import mavutil
