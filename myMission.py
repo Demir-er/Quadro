@@ -74,7 +74,7 @@ uav.mode= VehicleMode("AUTO")
 
 while True:
     next_waypoint= myCommand.next
-    print(f'Next command {next_waypoint}')
+    print('Next command {}'.format(next_waypoint))
     time.sleep(1)
 
     if next_waypoint is 2: 
